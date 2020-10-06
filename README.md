@@ -8,7 +8,20 @@ The purpose of this analysis was to analyze stock data using VBA in order to see
 
 ## Results
 
-Thanks to the formatting being performed in our macro, we can cleary see that 2017 had far better stock outcomes than 2018. As you can see below, in 2017 of the 12 stocks only one had a negative return. On the other hand, in 2018 all but two had negative returns. Now to compare the original macro code with the refactored code, the original code performed much better. As shown below, the time it took to run the refactored code took about 7-8 seconds to run as opposed to 1 - 1.5 seconds to run the original code. In the original code, we used nested loops to get our result. In the refactored code, we used arrays and non-nested loops to get the result. Perhaps storing the values in arrays rather than just accruing the value in a variable resulted in such a performance difference.
+Thanks to the formatting being performed in our macro, we can cleary see that 2017 had far better stock outcomes than 2018. As you can see below, in 2017 (see Exhibit A or B) of the 12 stocks only one had a negative return. On the other hand, in 2018 (see Exhibit C or D) all but two had negative returns. Now to compare the original macro code with the refactored code, the original code performed much better. As shown below, the time it took to run the refactored code took about 7-8 seconds (see Exhibit B or D) to run as opposed to 1 - 1.5 seconds to run the original code (see Exhibit A or C). In the original code, we used nested loops to get our result. In the refactored code, we used arrays and non-nested loops to get the result. Perhaps storing the values in arrays rather than just accruing the value in a variable as the nested loops ran resulted in such a performance difference.
+
+- Exhibit A: 2017 Results Using Original Code
+![image_name](https://github.com/kimcheese33/stocks-analysis/blob/main/VBA_Challence_2017_Original.png)
+
+- Exhibit B: 2017 Results Using Refactored Code
+![image_name](https://github.com/kimcheese33/stocks-analysis/blob/main/VBA_Challenge_2017.png)
+
+- Exhibit C: 2018 Results Using Original Code
+![image_name](https://github.com/kimcheese33/stocks-analysis/blob/main/VBA_Challenge_2018_Original.png)
+
+- Exhibit D: 2018 Results Using Refactored Code
+![image_name](https://github.com/kimcheese33/stocks-analysis/blob/main/VBA_Challenge_2018.png)
+
 
 ## Summary
 
